@@ -1,0 +1,51 @@
+/* Base styles for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Common styles for all layout sections */
+.common {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Individual Section Positioning */
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+
+.left-menu {
+    top: 115px; /* Header height (100) + gaps/borders */
+    left: 5px;
+    bottom: 45px;
+    width: 150px;
+}
+
+.main-body {
+    top: 115px;
+    left: 160px; /* Left menu width + gap */
+    right: 160px; /* Right menu width + gap */
+    bottom: 45px;
+}
+
+.right-menu {
+    top: 115px;
+    right: 5px;
+    bottom: 45px;
+    width: 150px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 35px;
+}
